@@ -1,7 +1,6 @@
 import Fastify from "fastify";
 import { prisma } from './db.js';
 import booksRoutes from "./routes/books.js";
-import bibliotecarioRoutes from "./routes/bibliotecario.js";
 
 
 export function buildApp() {
@@ -13,7 +12,7 @@ export function buildApp() {
 
     // Rotas
     app.register(booksRoutes);
-    app.register(bibliotecarioRoutes);
+    //app.register(bibliotecarioRoutes);
 
     // Fechar o Prisma ao encerrar o app
     app.addHook('onClose', async (instance) => {
