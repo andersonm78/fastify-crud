@@ -1,4 +1,4 @@
-fastify prisma
+aula fastify prisma
 
 Parte 1
 mkdir fastify-crud && cd fastify-crud
