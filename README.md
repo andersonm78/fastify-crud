@@ -30,7 +30,7 @@ npx prisma studio
 
 npx prisma generate
 
-Comando para ve o banco
+Comando para ver o banco
 npx prisma studio
 
 Rodar projeto
