@@ -127,10 +127,12 @@ exports.Prisma.BookScalarFieldEnum = {
   updatedAt: 'updatedAt'
 };
 
-exports.Prisma.AuthorScalarFieldEnum = {
+exports.Prisma.BibliotecarioScalarFieldEnum = {
   id: 'id',
-  name: 'name',
-  email: 'email'
+  nome: 'nome',
+  email: 'email',
+  endereco: 'endereco',
+  nascimento: 'nascimento'
 };
 
 exports.Prisma.SortOrder = {
@@ -141,7 +143,7 @@ exports.Prisma.SortOrder = {
 
 exports.Prisma.ModelName = {
   Book: 'Book',
-  Author: 'Author'
+  Bibliotecario: 'Bibliotecario'
 };
 
 /**
